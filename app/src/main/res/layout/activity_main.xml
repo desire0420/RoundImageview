@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <headview.myapplication.RoundImageView
+            android:id="@+id/id_qiqiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@mipmap/test_image" >
+        </headview.myapplication.RoundImageView>
+
+        <headview.myapplication.RoundImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/test_image" >
+        </headview.myapplication.RoundImageView>
+
+        <headview.myapplication.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@mipmap/test_image" >
+        </headview.myapplication.RoundImageView>
+
+        <headview.myapplication.RoundImageView
+            android:id="@+id/id_meinv"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@mipmap/test_image"
+            zhy:borderRadius="6dp"
+            zhy:type="round" >
+        </headview.myapplication.RoundImageView>
+
+        <headview.myapplication.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@mipmap/test_image"
+            zhy:borderRadius="40dp"
+            zhy:type="round" >
+        </headview.myapplication.RoundImageView>
+
+        <headview.myapplication.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@mipmap/test_image"
+            zhy:borderRadius="60dp"
+            zhy:type="round" >
+        </headview.myapplication.RoundImageView>
+    </LinearLayout>
+
+</ScrollView>
